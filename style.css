@@ -1,0 +1,64 @@
+.p1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position:relative;
+    
+    animation: pk 1s ease-in 2ms infinite alternate-reverse both;
+}
+
+@keyframes pk{
+    0%{
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: antiquewhite;
+        border-radius: 2px;
+
+    }
+    25%{
+        left: 250px;
+        top: 0px;
+        
+        width: 100px;
+        height: 100px;
+        background-color: rgb(215, 250, 220);
+        border-radius: 10px;
+
+    }
+    50%{
+        top: 250px;
+        left: 250px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(224, 139, 28);
+        border-radius: 15px;
+
+    }
+    75%{
+        top: 250px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(147, 93, 22);
+        border-radius: 20px;
+
+    }
+    100%{
+        top: 0px;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        
+        border-radius: 20px;
+
+    }
+    @media only screen and (max-width: 1080px ||min-width: 880px) {
+        body{
+            background-color:green;
+        }
+        
+        
+    }
+}
